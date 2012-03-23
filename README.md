@@ -16,14 +16,14 @@ une base pour les recettes provenant de la communauté et pour que la documentat
 Tu as une recette ou un tutoriel pour [Sinatra][sinatra]? Sensas, ici est l'endroit
 principal pour contribuer.
 
-Après avoir [effectué un 'fork'][github-forking] envoies [ un 'pull
+Après avoir [effectué un 'fork'][github-forking],envoie [ un 'pull
 request'][github-pull-requests], juste pour être certain de suivre les [règles de
 style][style-guidelines]. 
 
 Tu peux aussi nous contacter sur [irc][irc] ou sur la [mailinglist][mailinglist].
 
 T'as pas d'idées? Jette un coup d'oeil à [issue tracker][issues] pour
-des recettes qui ont été demandées ou qui sont en cours.
+des recettes qui ont été proposées ou qui sont en cours.
 
 ## Voici le topo
 
@@ -37,7 +37,7 @@ Premièrement, tu devrais prendre note des fichiers d'application:
 
     app.rb # une miniscule application pour afficher les recettes
     config.ru # le fichier rackup pour le déploiement à Heroku
-    Gemfile # fichier de dépendences bundler pour démarrer l'application
+    Gemfile # fichier de dépendances bundler pour démarrer l'application
 
 Deuxièmement,tu as besoin du gem `bundler`.
 
@@ -46,14 +46,14 @@ Deuxièmement,tu as besoin du gem `bundler`.
 Si tu es sur Rubinius assures-toi que tu as la dernière version de bundler
 installée. Les versions antérieures à 1.0.10 ne marcheront pas.
 
-    # ensuite installe les dépendences de l'application
+    # ensuite installe les dépendances de l'application
     bundle install
 
 Lorsque c'est complété, tu devrais partir `rackup` à la racine de 
 l'application et visite: [localhost:9292](http://localhost:9292)
 
-Vu que l'application de ne fait que mapper les fichier 'flats', tu peux fureter soit à l
-source ou avec l'application web pour voir les recettes.
+Vu que l'application de ne fait que mapper les fichier 'flats', tu peux fureter soit à la
+source ou avec l'application web pour consulter les recettes.
 
 Si tu regarde à la source tu vas voir une couple de dossiers.Dans chaque dossier
 il y a un `README.md` qui va brièvement t'expliquer le sujet. Ce qui peut aussi
@@ -66,7 +66,7 @@ Dans chaque dossier, il devrait y avoir un nombre de recettes à propos de chaqu
 Présentement, nous n'acceptons pas les traductions dans le dépôt principal.
 
 Cependant, si tu voudrais maintenir un fork pour traduire la documentation, tu es
-libre de le faire, et ajoute to fork à la [liste des traduction dans le
+libre de le faire, et tu peux ensuite ajouter ton fork à la [liste des traduction dans le
 wiki][translations].
 
 [sinatra]: http://www.sinatrarb.com/
