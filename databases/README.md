@@ -1,21 +1,23 @@
-Databases
+Bases de données
 ---------
 
-Often times, applications need to talk to some external datasource. This
-section will cover recipes for integrating different types of databases
-into your Sinatra application. This section won't cover the differences
-between the types of databases your application may want to use, it will
-just list a few recipes for connecting to and using data in some of those
-databases. For a discussion of the different types of databases out there
-you can consult [this Wikipedia article][database_on_wikipedia].
+Souvent, les applications ont besoin de communiquer avec une source externe
+de données. Cette section couvrera des recettes pour intégrer different types
+de bases de données dans ton application Sinatra. Cette section ne couvrira
+point les différences entre les types de bases de données que votre application
+pourrait utiliser, elle va seulement lister certaines recettes pour connecter et
+utiliser des données dans certaines de vos bases de données.Pour un article
+concernant les différents types de bases de données, consulte[cet article Wikipedia]
+[database_on_wikipedia].
 
-## Did we miss something?
+## Avons-nous oublié quelque chose?
 
-It's very possible we've left something out, thats why we need your help! This
-is a community driven project after all. Feel free to fork the project and send
-us a pull request to get your recipe or tutorial included in the book. 
+C'est possible que nous ayons oublié quelque détails, c'est pour cela que nous avons
+besoin de ton aide! Ceci est un projet dirigé par la communauté.
+Sens-toi à l'aise de 'forker' le projet et de nous envoyer une demande
+de pull request pour obtenir ta recette ou tutoriel inclus dans le livre. 
 
-See the [README][readme] for more details.
+Consulte le [README][readme] pour de plus amples détails.
 
 [database_on_wikipedia]: http://en.wikipedia.org/wiki/Database
 [readme]: http://github.com/sinatra/sinatra-book-contrib/blob/master/README.md
