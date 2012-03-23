@@ -13,10 +13,10 @@ une base pour les recettes provenant de la communauté et pour que la documentat
 
 ## Comment puis-je aider?
 
-Tu as une recette ou un tutoriel pour [Sinatra][sinatra]? Sensas, ici est l'endroit
+Tu as une recette ou un tutoriel pour [Sinatra][sinatra]? Sensas, voici l'endroit
 principal pour contribuer.
 
-Après avoir [effectué un 'fork'][github-forking],envoie [ un 'pull
+Après avoir [effectué un 'fork'][github-forking], envoie [ un 'pull
 request'][github-pull-requests], juste pour être certain de suivre les [règles de
 style][style-guidelines]. 
 
