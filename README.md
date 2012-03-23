@@ -66,7 +66,7 @@ Dans chaque dossier, il devrait y avoir un nombre de recettes à propos de chaqu
 Présentement, nous n'acceptons pas les traductions dans le dépôt principal.
 
 Cependant, si tu voudrais maintenir un fork pour traduire la documentation, tu es
-libre de le faire, et tu peux ensuite ajouter ton fork à la [liste des traduction dans le
+libre de le faire, et tu peux ensuite ajouter ton fork à la [liste des traductions dans le
 wiki][translations].
 
 [sinatra]: http://www.sinatrarb.com/
