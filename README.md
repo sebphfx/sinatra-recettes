@@ -1,72 +1,72 @@
-Sinatra Recipes 
+Sinatra-Recettes
 ---------------
 
-Community contributed recipes and techniques for the [Sinatra Web
+Recettes provenant de la communauté et techniques pour [Sinatra Web
 Framework][sinatra].
 
-## Why yet another doc project?
+## Pourquoi un nouveau projet de documentation?
 
-Quite simply, the Sinatra README and Book have become long in the tooth.
+Tout simplement parce que le README de Sinatra et le livre sont un peu désuets.
 
-This project is to extract any redundant and overlap between the two sources,
-and create a home for user contributed recipes and documentation to take form.
+Ce projet est pour extraire la redondance,combiner les deux sources,et créer
+une base pour les recettes provenant de la communauté et pour que la documentation prenne forme.
 
-## How can I help?
+## Comment puis-je aider?
 
-Got a recipe or tutorial for [Sinatra][sinatra]? Awesome, this is
-the first place you should go if you're looking to contribute.
+Tu as une recette ou un tutoriel pour [Sinatra][sinatra]? Sensas, ici est l'endroit
+principal pour contribuer.
 
-Once you have [forked the project][github-forking] send a [pull
-request][github-pull-requests], just be sure to follow the [styling
-guidelines][style-guidelines]. 
+Après avoir [effectué un 'fork'][github-forking] envoies [ un 'pull
+request'][github-pull-requests], juste pour être certain de suivre les [règles de
+style][style-guidelines]. 
 
-You can also get a hold of us on [irc][irc] or the [mailinglist][mailinglist].
+Tu peux aussi nous contacter sur [irc][irc] ou sur la [mailinglist][mailinglist].
 
-Don't have any ideas? Check out the existing [issue tracker][issues] for
-recipes that have been requested or are in progress.
+T'as pas d'idées? Jette un coup d'oeil à [issue tracker][issues] pour
+des recettes qui ont été demandées ou qui sont en cours.
 
-## Here's the run down
+## Voici le topo
 
-To get started you should clone the repository from github:
+Pour commencer, tu dois cloner le dépôt de github:
 
     git clone git://github.com/sinatra/sinatra-recipes.git
 
-Now once you `cd` into `sinatra-recipes` you should see a few things.
+Après avoir `cd` dedans `sinatra-recipes` tu devrais voir plusieurs choses.
 
-First you should take note of the application files:
+Premièrement, tu devrais prendre note des fichiers d'application:
 
-    app.rb # a tiny application for displaying the contributed recipes
-    config.ru # rackup file for deploying to heroku
-    Gemfile # dependencies file for bundler to run the app
+    app.rb # une miniscule application pour afficher les recettes
+    config.ru # le fichier rackup pour le déploiement à Heroku
+    Gemfile # fichier de dépendences bundler pour démarrer l'application
 
-If you want to run the application yourself first you need the `bundler` gem.
+Deuxièmement,tu as besoin du gem `bundler`.
 
     gem install bundler
     
-If you are on Rubinius make sure that you have the latest bundler version
-installed. Versions prior to 1.0.10 won't work.
+Si tu es sur Rubinius assures-toi que tu as la dernière version de bundler
+installée. Les versions antérieures à 1.0.10 ne marcheront pas.
 
-    # then install the application dependencies
+    # ensuite installe les dépendences de l'application
     bundle install
 
-Once that is complete, you should only need to run `rackup` in the application
-root and visit: [localhost:9292](http://localhost:9292)
+Lorsque c'est complété, tu devrais partir `rackup` à la racine de 
+l'application et visite: [localhost:9292](http://localhost:9292)
 
-Since the application just maps the flat files, you can browse either the
-source or the web app to view recipes.
+Vu que l'application de ne fait que mapper les fichier 'flats', tu peux fureter soit à l
+source ou avec l'application web pour voir les recettes.
 
-If you check out the source you will see a few folders listed, in each folder
-there is a `README.md` that will briefly explain the topic. This can also be
-view by going to `/p/:topic` where `topic` is the folder you wish to view.
+Si tu regarde à la source tu vas voir une couple de dossiers.Dans chaque dossier
+il y a un `README.md` qui va brièvement t'expliquer le sujet. Ce qui peut aussi
+être fait en allant à `/p/:topic` où `topic` est le dossier que tu veux consulter.
 
-In each folder there should be a number of recipes pertaining to each topic.
+Dans chaque dossier, il devrait y avoir un nombre de recettes à propos de chaque sujet.
 
-## On translations
+## À propos des traductions
 
-Currently we're not supporting translations in the main repository.
+Présentement, nous n'acceptons pas les traductions dans le dépôt principal.
 
-However, if you'd like to maintain a fork for translating the docs then feel
-free to do so, and add your fork to the [list of translations in the
+Cependant, si tu voudrais maintenir un fork pour traduire la documentation, tu es
+libre de le faire, et ajoute to fork à la [liste des traduction dans le
 wiki][translations].
 
 [sinatra]: http://www.sinatrarb.com/
