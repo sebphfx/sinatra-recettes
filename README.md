@@ -50,12 +50,12 @@ installée. Les versions antérieures à 1.0.10 ne marcheront pas.
     bundle install
 
 Lorsque c'est complété, tu devrais partir `rackup` à la racine de 
-l'application et visite: [localhost:9292](http://localhost:9292)
+l'application et visiter: [localhost:9292](http://localhost:9292)
 
-Vu que l'application de ne fait que mapper les fichier 'flats', tu peux fureter soit à la
+Vu que l'application ne fait que mapper les fichiers 'flats', tu peux fureter soit à la
 source ou avec l'application web pour consulter les recettes.
 
-Si tu regarde à la source tu vas voir une couple de dossiers.Dans chaque dossier
+Si tu regardes à la source,tu vas voir une couple de dossiers.Dans chaque dossier
 il y a un `README.md` qui va brièvement t'expliquer le sujet. Ce qui peut aussi
 être fait en allant à `/p/:topic` où `topic` est le dossier que tu veux consulter.
 
