@@ -2,7 +2,7 @@ Bases de données
 ---------
 
 Souvent, les applications ont besoin de communiquer avec une source externe
-de données. Cette section couvrera des recettes pour intégrer different types
+de données. Cette section couvrira des recettes pour intégrer different types
 de bases de données dans ton application Sinatra. Cette section ne couvrira
 point les différences entre les types de bases de données que votre application
 pourrait utiliser, elle va seulement lister certaines recettes pour connecter et
@@ -12,7 +12,7 @@ concernant les différents types de bases de données, consulte[cet article Wiki
 
 ## Avons-nous oublié quelque chose?
 
-C'est possible que nous ayons oublié quelque détails, c'est pour cela que nous avons
+C'est possible que nous ayons oublié quelques détails, c'est pour cela que nous avons
 besoin de ton aide! Ceci est un projet dirigé par la communauté.
 Sens-toi à l'aise de 'forker' le projet et de nous envoyer une demande
 de pull request pour obtenir ta recette ou tutoriel inclus dans le livre. 
